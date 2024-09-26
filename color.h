@@ -23,6 +23,5 @@ extern const int numberOfMinorColors;
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
-void PrintColorCodingReference();
 
 #endif // COLOR_H
