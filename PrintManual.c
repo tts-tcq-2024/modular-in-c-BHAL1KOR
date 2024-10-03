@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "ColorCoding.h"
 
-void getColorCodingReference(char* buffer, int bufferSize) {
+void GenerateReferenceManual(char* buffer, int bufferSize) {
     int offset = 0;
     offset += snprintf(buffer + offset, bufferSize - offset, "Color Coding Reference Manual\n");
     offset += snprintf(buffer + offset, bufferSize - offset, "-----------------------------\n");
