@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "ColorPair.h"
 #include "PrintManual.h"
-#include "TestColorPair.h"
+#include "ColorPairTest.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -11,6 +11,6 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
 
     char manualBuffer[1024];
-    getColorCodingReference(manualBuffer, sizeof(manualBuffer));
+    GenerateReferenceManual(manualBuffer, sizeof(manualBuffer));
     return 0;
 }
