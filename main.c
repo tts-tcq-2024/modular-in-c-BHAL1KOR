@@ -7,5 +7,7 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
+    char manualBuffer[1024];
+    getColorCodingReference(manualBuffer, sizeof(manualBuffer));
     return 0;
 }
